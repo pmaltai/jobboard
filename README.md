@@ -1,54 +1,56 @@
-# jobboard
+# 💼 JobBoard – Full-Stack Portfolio Project
 
-jobboard
+A real-world job board application built using **React**, **Django**, **Tailwind CSS**, and **Docker**. This project demonstrates my full-stack development skills, including frontend design, backend API creation, Dockerized environment setup, and deployment readiness. The app is presented with relaxing classical music for a calm coding vibe.
 
-[![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
-[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+---
 
-License: MIT
+## 🚀 Live Demo
 
-## Settings
+🎬 [Watch the Demo on YouTube »](https://youtu.be/uG5Bbr5sqmc)
 
-Moved to [settings](http://cookiecutter-django.readthedocs.io/en/latest/settings.html).
+---
 
-## Basic Commands
+## 🛠 Tech Stack
 
-### Setting Up Your Users
+| Layer        | Technologies                       |
+|--------------|------------------------------------|
+| **Frontend** | React, Tailwind CSS                |
+| **Backend**  | Django, Django REST Framework      |
+| **Database** | PostgreSQL                         |
+| **DevOps**   | Docker, Docker Compose             |
+| **Editor**   | Neovim                             |
 
-- To create a **normal user account**, just go to Sign Up and fill out the form. Once you submit it, you'll see a "Verify Your E-mail Address" page. Go to your console to see a simulated email verification message. Copy the link into your browser. Now the user's email should be verified and ready to go.
+---
 
-- To create a **superuser account**, use this command:
+## ✨ Features
 
-      $ python manage.py createsuperuser
+- 👨‍💼 Job Listings and Details
+- 📝 User Registration & Authentication
+- 🔎 Job Search & Filtering
+- 🗃 RESTful API built with Django
+- 📦 Dockerized Setup (Backend & Frontend)
+- 🌐 Responsive UI with Tailwind CSS
 
-For convenience, you can keep your normal user logged in on Chrome and your superuser logged in on Firefox (or similar), so that you can see how the site behaves for both kinds of users.
+---
 
-### Type checks
+## 📷 Screenshot
 
-Running type checks with mypy:
+![Job Board Screenshot](frontend/public/thumbnail.png)
 
-    $ mypy jobboard
+---
+👨‍💻 About Me
+Hi, I'm Munkh-Altai Purevdorj, a full-stack developer passionate about building clean, scalable web applications. This project is part of my portfolio to demonstrate real-world coding skills and DevOps capabilities.
 
-### Test coverage
+✉️ Email: munkhaltai@gmail.com
 
-To run the tests, check your test coverage, and generate an HTML coverage report:
+🌐 LinkedIn: linkedin.com/in/munkh-altai-purevdorj-71307223
 
-    $ coverage run -m pytest
-    $ coverage html
-    $ open htmlcov/index.html
+💻 GitHub: github.com/pmaltai
 
-#### Running tests with pytest
+📜 License
+This project is licensed under the MIT License.
 
-    $ pytest
+🏷️ Tags & Keywords
+#React #Django #Docker #FullStack #WebDevelopment
+#TailwindCSS #RESTAPI #Neovim #ClassicalMusicCoding
 
-### Live reloading and Sass CSS compilation
-
-Moved to [Live reloading and SASS compilation](https://cookiecutter-django.readthedocs.io/en/latest/developing-locally.html#sass-compilation-live-reloading).
-
-## Deployment
-
-The following details how to deploy this application.
-
-### Docker
-
-See detailed [cookiecutter-django Docker documentation](http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html).
