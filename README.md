@@ -41,7 +41,7 @@ A real-world job board application built using **React**, **Django**, **Tailwind
 👨‍💻 About Me
 Hi, I'm Munkh-Altai Purevdorj, a full-stack developer passionate about building clean, scalable web applications. This project is part of my portfolio to demonstrate real-world coding skills and DevOps capabilities.
 
-✉️ Email: munkhaltai@gmail.com
+✉️ Email: munkhaltai@proton.me
 
 🌐 LinkedIn: linkedin.com/in/munkh-altai-purevdorj-71307223
 
